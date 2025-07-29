@@ -6,73 +6,83 @@
     <title>Html Docs </title>
 </head>
 <body>
-      
+    <header>
+      <section>Join us </section>
+    </header>
+
+    <nav class="navbar">
+          <ul class="nav-links">
+            <li>
+                <img src="html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+            </li>
+            <li>
       <form action="/search" method="GET">
            <input type="text" name="query" placeholder="Kërko këtu..." />
            <button type="submit">Kërko</button>
-      </form>
+      </form></li>
 
+      
+            <li><a href="">Learn</a></li>
+            <li><a href="">Reference</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Blog</a></li>
+            <li>
+                <img src="nightlight_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+            </li>
+            <li>
+                <img src="g_translate_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+            </li>
+        </ul>
+
+    </nav>s
     <aside id="sidebar">
-        <div>
-        <h6>Get started</h6>
+        
+        <h3>HTML Topics</h3>
         <ul>
             <li>
                 <button class="dropdown-btn">
-                    <span>Quick start</span>
+                    <span>Html Basics</span>
                 </button>
-                <ul>
-                    <li><a href="">Tutorial</a></li>
-                    <li><a href="">Thinking in React </a></li>
+                <ul class="dropdown-content">
+                    <li><a href="">What is Html?</a></li>
+                    <li><a href="">Syntax & Structure</a></li>
+                    <li><a href="">Elements & tags</a></li>
                 </ul>
             </li>
             <li>
                 <button class="dropdown-btn">
-                    <span>Components</span>
+                    <span>Text & Formatting</span>
                 </button>
-                <ul>
-                    <li><a href="">Component API</a></li>
-                    <li><a href="">Component Lifecycle</a></li>
-                    <li><a href="">Component Composition</a></li>
+                <ul class="dropdown-content">
+                    <li><a href="">Headings & Paragraphs</a></li>
+                    <li><a href="">Formatting Tags</a></li>
                 </ul>
             </li>
             <li>
                 <button class="dropdown-btn">
-                    <span>Hooks</span>
+                    <span>Links & Navigation</span>
                 </button>
-                <ul>
-                    <li><a href="">useState</a></li>
-                    <li><a href="">useEffect</a></li>
-                    <li><a href="">useContext</a></li>
+                <ul class="dropdown-content">
+                    <li><a href="">Anchor & Tags</a></li>
+                    <li><a href="">Navigation Menus</a></li>
                 </ul>
             </li>
+            <li>
+                <button class="dropdown-btn">
+                    <span>Forms</span>
+                </button>
+                    <ul class="dropdown-content">
+                        <li><a href="">Form Basics</a></li>
+                        <li><a href="">Input Types</a></li>
+                        <li><a href="">Validation</a></li>
+                    </ul>
+                
+            </li>
+            
+            <li><a href="#">Semantic HTML</a></li>
+            <li><a href="#">Best Practices</a></li>
+            <li><a href="#">Projects</a></li>
         </ul>
-        </div>
-        <div>
-            <h6>Learn Html</h6>
-            <ul>
-                <li>
-                    <button class="dropdown-btn">
-                        <aside>Describing the UI</aside>
-                    </button>
-                    <ul>
-                        <li><a href="">HTML Basics</a></li>
-                        <li><a href="">HTML Elements</a></li>
-                        <li><a href="">HTML Attributes</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <button class="dropdown-btn">
-                        <aside>HTML Forms</aside>
-                    </button>
-                    <ul>
-                        <li><a href="">Form Elements</a></li>
-                        <li><a href="">Form Attributes</a></li>
-                        <li><a href="">Form Validation</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-        </div>
     </aside>
     <main>
         <div class="container">
