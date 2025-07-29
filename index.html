@@ -1,257 +1,776 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Docs </title>
-</head>
-<body>
-    <header>
-      <section>Join us </section>
-    </header>
-
-    <!--Ky eshte navbar i faqes -->
-
-    <nav class="navbar">
-          <ul class="nav-links">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Html Docs </title>
+   </head>
+   <body>
+      <header>
+         <section>Join us </section>
+      </header>
+      <!--Ky eshte navbar i faqes -->
+      <nav class="navbar">
+         <ul class="nav-links">
             <li>
-                <img src="html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+               <img src="html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
             </li>
             <li>
-      <form action="/search" method="GET">
-           <input type="text" name="query" placeholder="Kërko këtu..." />
-           <button type="submit">Kërko</button>
-      </form></li>
-
-      
+               <form action="/search" method="GET">
+                  <input type="text" name="query" placeholder="Kërko këtu..." />
+                  <button type="submit">Kërko</button>
+               </form>
+            </li>
             <li><a href="">Learn</a></li>
             <li><a href="">Reference</a></li>
             <li><a href="">Community</a></li>
             <li><a href="">Blog</a></li>
             <li>
-                <img src="nightlight_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+               <img src="nightlight_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
             </li>
             <li>
-                <img src="g_translate_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+               <img src="g_translate_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
             </li>
-        </ul>
-
-    </nav>
-
-    <!--Ky eshte sidebari -->
-
-    <aside id="sidebar">
-        
-        <h3>HTML Topics</h3>
-        <ul>
+         </ul>
+      </nav>
+      <!--Ky eshte sidebari -->
+      <aside id="sidebar">
+         <h3>HTML Topics</h3>
+         <ul>
             <li>
-                <button class="dropdown-btn">
-                    <span>Html Basics</span>
-                </button>
-                <ul class="dropdown-content">
-                    <li><a href="">What is Html?</a></li>
-                    <li><a href="">Syntax & Structure</a></li>
-                    <li><a href="">Elements & tags</a></li>
-                </ul>
+               <button class="dropdown-btn">
+               <span>Html Basics</span>
+               </button>
+               <ul class="dropdown-content">
+                  <li><a href="#html">What is Html?</a></li>
+                  <li><a href="#syntax">Syntax & Structure</a></li>
+                  <li><a href="#tags">Elements & tags</a></li>
+               </ul>
             </li>
             <li>
-                <button class="dropdown-btn">
-                    <span>Text & Formatting</span>
-                </button>
-                <ul class="dropdown-content">
-                    <li><a href="">Headings & Paragraphs</a></li>
-                    <li><a href="">Formatting Tags</a></li>
-                </ul>
+               <button class="dropdown-btn">
+               <span>Text & Formatting</span>
+               </button>
+               <ul class="dropdown-content">
+                  <li><a href="">Headings & Paragraphs</a></li>
+                  <li><a href="">Formatting Tags</a></li>
+               </ul>
             </li>
             <li>
-                <button class="dropdown-btn">
-                    <span>Links & Navigation</span>
-                </button>
-                <ul class="dropdown-content">
-                    <li><a href="">Anchor & Tags</a></li>
-                    <li><a href="">Navigation Menus</a></li>
-                </ul>
+               <button class="dropdown-btn">
+               <span>Links & Navigation</span>
+               </button>
+               <ul class="dropdown-content">
+                  <li><a href="">Anchor & Tags</a></li>
+                  <li><a href="">Navigation Menus</a></li>
+               </ul>
             </li>
             <li>
-                <button class="dropdown-btn">
-                    <span>Forms</span>
-                </button>
-                    <ul class="dropdown-content">
-                        <li><a href="">Form Basics</a></li>
-                        <li><a href="">Input Types</a></li>
-                        <li><a href="">Validation</a></li>
-                    </ul>
-                
+               <button class="dropdown-btn">
+               <span>Forms</span>
+               </button>
+               <ul class="dropdown-content">
+                  <li><a href="">Form Basics</a></li>
+                  <li><a href="">Input Types</a></li>
+                  <li><a href="">Validation</a></li>
+               </ul>
             </li>
-            
             <li><a href="#">Semantic HTML</a></li>
             <li><a href="#">Best Practices</a></li>
             <li><a href="#">Projects</a></li>
-        </ul>
-    </aside>
+         </ul>
+      </aside>
+      <!-- the main content area -->
+      <main>
+         <div class="container" id="html">
+            <div id="definition">
+               <h2>Definition of Html</h2>
+               <p>
+                  HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It tells the browser how to display text, images, links, and other elements.
+               </p>
+               <p>
+                  HTML uses "tags" to mark elements like headings, paragraphs, and lists.
+               </p>
+               <pre><code>
+             &lt;h1&gt;This is a Heading&lt;/h1&gt;
+             &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+          </code></pre>
+            </div>
+            <div id="history">
+               <h2>History of HTML</h2>
+               <p>
+                  HTML was created by Tim Berners-Lee in 1991. It started with a simple set of tags and has evolved over time. The latest version is HTML5, which introduced new elements for multimedia, forms, and structure.
+               </p>
+               <ul>
+                  <li><strong>1991:</strong> First HTML draft</li>
+                  <li><strong>1999:</strong> HTML 4.01</li>
+                  <li><strong>2014:</strong> HTML5 officially released</li>
+               </ul>
+            </div>
+            <div id="usage">
+               <h2>Where is HTML used?</h2>
+               <p>
+                  HTML is used to build every web page on the internet. It defines the structure of:
+               </p>
+               <ul>
+                  <li>Websites and blogs</li>
+                  <li>Online forms</li>
+                  <li>Emails (HTML emails)</li>
+                  <li>Web apps (alongside CSS and JavaScript)</li>
+               </ul>
+               <div id="role">
+                  <h2>Role of HTML in Web Development</h2>
+                  <p>
+                     HTML is the backbone of web development. It works with CSS (for styling) and JavaScript (for interactivity) to create dynamic, responsive websites.
+                  </p>
+                  <p>
+                     Understanding HTML is essential for:
+                  </p>
+                  <ul>
+                     <li>Creating web pages</li>
+                     <li>Building user interfaces</li>
+                     <li>Ensuring accessibility</li>
+                     <li>Optimizing for search engines (SEO)</li>
+                  </ul>
+                  <pre><code>
+                 &lt;!DOCTYPE html&gt;
+                 &lt;html&gt;
+                 &lt;head&gt;
+                 &lt;title&gt;My First Page&lt;/title&gt;
+                 &lt;/head&gt;
+                 &lt;body&gt;
+                 &lt;h1&gt;Hello, world!&lt;/h1&gt;
+                 &lt;p&gt;Welcome to my website.&lt;/p&gt;
+                 &lt;/body&gt;
+                 &lt;/html&gt;
+                </code></pre>
+                  <p>
+                     This code creates a simple HTML page with a title and a heading.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="Container" id="syntax">
+         <h2>Syntax & Structure</h2>
+         <div id="tags">
+            <h3>Tags and elements</h3>
+            <p>
+               HTML uses <strong>tags</strong> to define elements on a page. A tag starts with &lt; and ends with &gt;. Most elements have an opening and a closing tag.
+            </p>
+            <pre><code>
+                  &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                  &lt;h1&gt;Heading 1&lt;/h1&gt;
+            </code></pre>
+            <p>
+               Tags wrap content to describe its role in the document. Together, the tag and its content are called an <strong>element</strong>.
+            </p>
+            <div id="attributes">
+               <h3>Attributes</h3>
+               <p>
+                  Attributes provide additional information about HTML elements. They are always added inside the opening tag and follow this pattern: <code>name="value"</code>.
+               </p>
+               <pre><code>
+                 &lt;img src="image.jpg" alt="A beautiful image"&gt;
+                 &lt;a href="https://example.com"&gt;Visit site&lt;/a&gt;
+               </code></pre>
+               <ul>
+                  <li><code>href</code>: used in anchor tags to specify link URL</li>
+                  <li><code>src</code>: defines the image source in image tags</li>
+                  <li><code>alt</code>: alternative text for images</li>
+               </ul>
+            </div>
+            <div id="nesting">
+               <h3>Nesting Rules </h3>
+               <p>
+                  HTML elements can be nested inside other elements. Proper nesting means opening and closing tags are placed in the correct order.
+               </p>
+               <pre><code>
+                   &lt;div&gt;
+                   &lt;p&gt;This is a paragraph inside a div.&lt;/p&gt;
+                   &lt;/div&gt;
+              </code></pre>
+               <p><strong>Incorrect nesting:</strong></p>
+               <pre><code>
+                   &lt;p&gt;This is wrong &lt;div&gt;text&lt;/div&gt;&lt;/p&gt; ❌
+             </code></pre>
+            </div>
+            <div id="case-sensitivity">
+               <h3>Case Sensitivity</h3>
+               <p>
+                  HTML is <strong>not case-sensitive</strong>. That means both &lt;H1&gt; and &lt;h1&gt; are valid. However, the best practice is to always write tags, attributes, and values in <strong>lowercase</strong>.
+               </p>
+               <pre><code>
+                 &lt;h1&gt;Correct&lt;/h1&gt; ✅
+                 &lt;H1&gt;Also valid, but not recommended&lt;/H1&gt; ⚠️
+              </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="elements-tags">
+            <h2>Elements & Tags</h2>
+            <div id="block-inline">
+               <h3>Block vs Inline Elements</h3>
+               <p>Block elements start on a new line and take full width. Inline elements flow within text.</p>
+               <pre><code>
+                  &lt;div&gt;This is a block element.&lt;/div&gt;
+                  &lt;span&gt;This is inline text.&lt;/span&gt;
+                </code></pre>
+            </div>
+            <div id="common-elements">
+               <h3>Common Elements</h3>
+               <p>Basic building blocks of HTML pages: headings, paragraphs, and lists.</p>
+               <pre><code>
+                  &lt;h1&gt;Heading 1&lt;/h1&gt;
+                  &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                  &lt;ul&gt;
+                  &lt;li&gt;List item 1&lt;/li&gt;
+                  &lt;li&gt;List item 2&lt;/li&gt;
+                  &lt;/ul&gt;
+               </code></pre>
+            </div>
+            <div id="self-closing">
+               <h3>Self-closing Tags</h3>
+               <p>Tags without a closing part. Used for images, line breaks, and horizontal rules.</p>
+               <pre><code>
+                  &lt;img src="image.jpg" alt="Example image" /&gt;
+                  &lt;br /&gt;
+                  &lt;hr /&gt;
+              </code></pre>
+            </div>
+            <div id="semantic-elements">
+               <h3>Semantic Elements</h3>
+               <p>Elements that clearly describe their meaning to browsers and developers.</p>
+               <pre><code>
+                      &lt;header&gt;Page header&lt;/header&gt;
+                      &lt;nav&gt;Navigation links&lt;/nav&gt;
+                      &lt;article&gt;Article content&lt;/article&gt;
+                      &lt;footer&gt;Page footer&lt;/footer&gt;
+                 </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="headings-paragraphs">
+            <h2>Headings & Paragraphs</h2>
+            <div id="headings">
+               <h3>Headings (h1-h6)</h3>
+               <p>Define the structure and importance of content sections.</p>
+               <pre><code>
+                      &lt;h1&gt;Main Title&lt;/h1&gt;
+                      &lt;h2&gt;Subheading&lt;/h2&gt;
+                      &lt;h3&gt;Section Title&lt;/h3&gt;
+                 </code></pre>
+            </div>
+            <div id="paragraphs">
+               <h3>Paragraphs</h3>
+               <p>Group related sentences to form blocks of text.</p>
+               <pre><code>
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                    &lt;p&gt;Another paragraph here.&lt;/p&gt;
+                </code></pre>
+            </div>
+            <div id="text-structure">
+               <h3>Text Structure & Semantics</h3>
+               <p>Use semantic tags like <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> to add meaning to text.</p>
+               <pre><code>
+                     &lt;p&gt;This is  &lt;strong&gt;important&lt;/strong&gt; and &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+                </code></pre>
+            </div>
+            <div id="accessibility">
+               <h3>Accessibility Tips</h3>
+               <ul>
+                  <li>Use headings in order (h1 to h6) for clear structure.</li>
+                  <li>Use semantic elements for better screen reader support.</li>
+                  <li>Provide meaningful alternative text for images.</li>
+               </ul>
+            </div>
+         </div>
+         <div class="Container" id="formatting-tags">
+            <h2>Text & Formatting: Formatting Tags</h2>
+            <div id="bold-italic">
+               <h3>Bold, Italic, Underline (b, i, u)</h3>
+               <p>Use these tags to style text:</p>
+               <ul>
+                  <li><code>&lt;b&gt;</code>: bold text without extra emphasis</li>
+                  <li><code>&lt;i&gt;</code>: italic text for alternate voice or mood</li>
+                  <li><code>&lt;u&gt;</code>: underlined text</li>
+               </ul>
+               <pre><code>
+                   &lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt; text.&lt;/p&gt;
+                   &lt;p&gt;This is &lt;i&gt;italic&lt;/i&gt; text.&lt;/p&gt;
+                   &lt;p&gt;This is &lt;u&gt;underlined&lt;/u&gt; text.&lt;/p&gt;
+               </code></pre>
+            </div>
+            <div id="em-strong">
+               <h3>Emphasis Tags (em, strong)</h3>
+               <p><code>&lt;em&gt;</code> adds emphasis (usually italic), <code>&lt;strong&gt;</code> adds strong importance (usually bold).</p>
+               <pre><code>
+                    &lt;p&gt;This is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+                    &lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt; text.&lt;/p&gt;
+                 </code></pre>
+            </div>
+            <div id="small-mark">
+               <h3>Small, Mark, Del, Ins</h3>
+               <p>Useful for specific text effects:</p>
+               <ul>
+                  <li><code>&lt;small&gt;</code>: smaller print</li>
+                  <li><code>&lt;mark&gt;</code>: highlighted text</li>
+                  <li><code>&lt;del&gt;</code>: deleted/removed text (strikethrough)</li>
+                  <li><code>&lt;ins&gt;</code>: inserted/added text</li>
+               </ul>
+               <pre><code>
+                  &lt;p&gt;This is &lt;small&gt;small&lt;/small&gt; text.&lt;/p&gt;
+                  &lt;p&gt;This is &lt;mark&gt;highlighted&lt;/mark&gt; text.&lt;/p&gt;
+                  &lt;p&gt;This was &lt;del&gt;removed&lt;/del&gt; text.&lt;/p&gt;
+                  &lt;p&gt;This is &lt;ins&gt;new&lt;/ins&gt; text.&lt;/p&gt;
+               </code></pre>
+            </div>
+            <div id="special-characters">
+               <h3>Special Characters & Entities</h3>
+               <p>Use entities to show reserved characters or symbols:</p>
+               <pre><code>
+                     &amp;nbsp; (non-breaking space)
+                     &amp;amp; (&amp;)
+                     &amp;lt; (&lt;)
+                     &amp;gt; (&gt;)
+                     &amp;copy; (©)
+                  </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="anchor-tags">
+            <h2>Links & Navigation: Anchor Tags</h2>
+            <div id="anchor-tag">
+               <h3>The &lt;a&gt; Tag</h3>
+               <p>Defines a hyperlink to navigate to another page or location.</p>
+               <pre><code>
+                   &lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+                </code></pre>
+            </div>
+            <div id="href-attributes">
+               <h3>Href Attribute</h3>
+               <p>Specifies the URL or path of the link destination.</p>
+               <pre><code>
+                    &lt;a href="https://google.com"&gt;Google&lt;/a&gt;
+                    &lt;a href="#section2"&gt;Jump to Section 2&lt;/a&gt;
+                 </code></pre>
+            </div>
+            <div id="link-target">
+               <h3>Target Attribute</h3>
+               <p>Controls where the link opens:</p>
+               <ul>
+                  <li><code>_self</code> (default): opens in the same tab</li>
+                  <li><code>_blank</code>: opens in a new tab/window</li>
+               </ul>
+               <pre><code>
+                  &lt;a href="https://example.com" target="_blank"&gt;Open in new tab&lt;/a&gt;
+              </code></pre>
+            </div>
+            <div id="link-rel">
+               <h3>Rel Attribute</h3>
+               <p>Specifies the relationship between the linked resource and the current page.</p>
+               <ul>
+                  <li><code>nofollow</code>: tells search engines not to follow the link</li>
+                  <li><code>noopener</code>, <code>noreferrer</code>: improve security when using <code>target="_blank"</code></li>
+               </ul>
+               <pre><code>
+                    &lt;a href="https://example.com" target="_blank" rel="noopener noreferrer"&gt;Secure Link&lt;/a&gt;
+                </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="nav-menus">
+            <h2>Links & Navigation: Navigation Menus</h2>
+            <div id="menu-structure">
+               <h3>Menu Structure</h3>
+               <p>Navigation menus are lists of links, usually created with <code>&lt;nav&gt;</code> and <code>&lt;ul&gt;</code> elements.</p>
+               <pre><code>
+                &lt;nav&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;/nav&gt;
+               </code></pre>
+            </div>
+            <div id="dropdown-menus">
+               <h3>Dropdown Menus</h3>
+               <p>Dropdowns show submenus when hovering or clicking on a menu item, usually nested lists.</p>
+               <pre><code>
+                     &lt;li&gt;Services
+                     &lt;ul&gt;
+                     &lt;li&gt;&lt;a href="#"&gt;Design&lt;/a&gt;&lt;/li&gt;
+                     &lt;li&gt;&lt;a href="#"&gt;Development&lt;/a&gt;&lt;/li&gt;
+                     &lt;/ul&gt;
+                     &lt;/li&gt;
+                  </code></pre>
+            </div>
+            <div id="responsive-nav">
+               <h3>Responsive Navigation</h3>
+               <p>Responsive menus adapt for different screen sizes, often with hamburger buttons and toggles.</p>
+               <p>Example: CSS media queries and JavaScript toggle the menu visibility on small screens.</p>
+            </div>
+            <div id="aria-nav">
+               <h3>ARIA Roles for Nav</h3>
+               <p>Use ARIA roles to improve accessibility:</p>
+               <ul>
+                  <li><code>role="navigation"</code>: identifies the navigation section</li>
+                  <li><code>aria-label="Main menu"</code>: describes the navigation purpose</li>
+               </ul>
+               <pre><code>
+                    &lt;nav role="navigation" aria-label="Main menu"&gt;
+                      ...
+                   &lt;/nav&gt;
+                 </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="form-basics">
+            <h2>Forms: Form Basics</h2>
+            <div id="form-tag">
+               <h3>The &lt;form&gt; Tag</h3>
+               <p>Wraps form controls to submit user input to a server.</p>
+               <pre><code>
+                     &lt;form action="/submit" method="post"&gt;
+                       ...
+                     &lt;/form&gt;
+                   </code></pre>
+            </div>
+            <div id="form-methods">
+               <h3>Method Attribute (GET, POST)</h3>
+               <p>Defines how data is sent:</p>
+               <ul>
+                  <li><code>GET</code>: appends data in URL (visible)</li>
+                  <li><code>POST</code>: sends data in request body (secure)</li>
+               </ul>
+               <pre><code>
+                    &lt;form method="get"&gt; or &lt;form method="post"&gt;
+               </code></pre>
+            </div>
+            <div id="form-action">
+               <h3>Action Attribute</h3>
+               <p>Specifies the URL where form data is sent on submission.</p>
+               <pre><code>
+                   &lt;form action="/process-data"&gt; ... &lt;/form&gt;
+                </code></pre>
+            </div>
+            <div id="form-structure">
+               <h3>Basic Form Structure</h3>
+               <p>Typical form includes labels and inputs:</p>
+               <pre><code>
+                  &lt;form&gt;
+                  &lt;label for="name"&gt;Name:&lt;/label&gt;
+                  &lt;input type="text" id="name" name="name"&gt;
+                  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+                  &lt;/form&gt;
+                </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="input-types">
+            <h2>Forms: Input Types</h2>
+            <div id="text-email-password">
+               <h3>Text, Email, Password</h3>
+               <p>Common input fields:</p>
+               <pre><code>
+                    &lt;input type="text" name="username" placeholder="Username"&gt;
+                    &lt;input type="email" name="email" placeholder="Email"&gt;
+                    &lt;input type="password" name="password" placeholder="Password"&gt;
+               </code></pre>
+            </div>
+            <div id="radio-checkbox">
+               <h3>Radio & Checkbox</h3>
+               <p>Used for single or multiple selections:</p>
+               <pre><code>
+                   &lt;input type="radio" name="gender" value="male"&gt; Male
+                   &lt;input type="radio" name="gender" value="female"&gt; Female
 
-    <!-- the main content area -->
-
-    <main>
-        <div class="container">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas reiciendis a porro officia dignissimos id nesciunt beatae laboriosam iusto!</p>
-        </div>
-        <div class="Container">
-            <h2>hsdjghj</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptas sed porro, eveniet repellat dolores a ab impedit reiciendis repellendus.</p>
-        </div>
-    </main>
-
-    <!--Ky eshte the right sidebar -->
-    <!-- "What is Html?" -->
-<div class="right-sidebar" id="html-basics-what-is-html">
-  <h6>On this page</h6>
-  <ul>
-    <li><a href="#definition">Definition of HTML</a></li>
-    <li><a href="#history">History of HTML</a></li>
-    <li><a href="#usage">Where is HTML used?</a></li>
-    <li><a href="#role">Role of HTML in Web Development</a></li>
-  </ul>
-</div>
-
-<!-- "Syntax & Structure" -->
-<div class="right-sidebar" id="html-basics-syntax-structure">
-    <h6>On this page</h6>
-  <ul>
-    <li><a href="#tags">Tags and Elements</a></li>
-    <li><a href="#attributes">Attributes</a></li>
-    <li><a href="#nesting">Nesting Rules</a></li>
-    <li><a href="#case-sensitivity">Case Sensitivity</a></li>
-  </ul>
-</div>
-
-<!-- "Elements & tags" -->
-<div class="right-sidebar" id="html-basics-elements-tags" >
-   <h6>On this page</h6>
-  <ul>
-    <li><a href="#block-inline">Block vs Inline Elements</a></li>
-    <li><a href="#common-elements">Common Elements</a></li>
-    <li><a href="#self-closing">Self-closing Tags</a></li>
-    <li><a href="#semantic-elements">Semantic Elements</a></li>
-  </ul>
-</div>
-
-<!-- "Headings & Paragraphs" -->
- <!-- Text & Formatting > Headings & Paragraphs -->
-<div class="right-sidebar" id="text-formatting-headings-paragraphs" >
-   <h6>On this page</h6>
-  <ul>
-    <li><a href="#headings">Headings (h1-h6)</a></li>
-    <li><a href="#paragraphs">Paragraphs</a></li>
-    <li><a href="#text-structure">Text Structure & Semantics</a></li>
-    <li><a href="#accessibility">Accessibility tips</a></li>
-  </ul>
-</div>
-
-<!-- Text & Formatting > Formatting Tags -->
-<div class="right-sidebar" id="text-formatting-formatting-tags">
-  <h6>On this page</h6>>
-  <ul>
-    <li><a href="#bold-italic">Bold, Italic, Underline (b, i, u)</a></li>
-    <li><a href="#em-strong">Emphasis Tags (em, strong)</a></li>
-    <li><a href="#small-mark">Small, Mark, Del, Ins</a></li>
-    <li><a href="#special-characters">Special characters & Entities</a></li>
-  </ul>
-</div>
-
-
-<!-- Links & Navigation > Anchor & Tags -->
-<div class="right-sidebar" id="links-navigation-anchor-tags" >
-   <h6>On this page</h6>
-  <ul>
-    <li><a href="#anchor-tag">The &lt;a&gt; Tag</a></li>
-    <li><a href="#href-attributes">Href Attribute</a></li>
-    <li><a href="#link-target">Target Attribute</a></li>
-    <li><a href="#link-rel">Rel Attribute</a></li>
-  </ul>
-</div>
-
-<!-- Links & Navigation > Navigation Menus -->
-<div class="right-sidebar" id="links-navigation-nav-menus" >
-    <h6>On this page</h6>
-  <ul>
-    <li><a href="#menu-structure">Menu Structure</a></li>
-    <li><a href="#dropdown-menus">Dropdown Menus</a></li>
-    <li><a href="#responsive-nav">Responsive Navigation</a></li>
-    <li><a href="#aria-nav">ARIA Roles for Nav</a></li>
-  </ul>
-</div>
-
-
-<!-- Forms > Form Basics -->
-<div class="right-sidebar" id="forms-form-basics">
-   <h6>On this page</h6>6>
-  <ul>
-    <li><a href="#form-tag">The &lt;form&gt; Tag</a></li>
-    <li><a href="#form-methods">Method Attribute (GET, POST)</a></li>
-    <li><a href="#form-action">Action Attribute</a></li>
-    <li><a href="#form-structure">Basic Form Structure</a></li>
-  </ul>
-</div>
-
-<!-- Forms > Input Types -->
-<div class="right-sidebar" id="forms-input-types" >
-   <h6>On this page</h6>
-  <ul>
-    <li><a href="#text-email-password">Text, Email, Password</a></li>
-    <li><a href="#radio-checkbox">Radio & Checkbox</a></li>
-    <li><a href="#date-file-range">Date, File, Range</a></li>
-    <li><a href="#disabled-readonly">Disabled & Readonly</a></li>
-  </ul>
-</div>
-
-<!-- Forms > Validation -->
-<div class="right-sidebar" id="forms-validation">
-   <h6>On this page</h6>
-  <ul>
-    <li><a href="#required-pattern">Required, Pattern</a></li>
-    <li><a href="#min-max">Min/Max Values</a></li>
-    <li><a href="#custom-js-validation">Custom JS Validation</a></li>
-    <li><a href="#validation-examples">Validation Examples</a></li>
-  </ul>
-</div>
-
-<!--Semantic Html-->
-
-<div class="right-sidebar" id="right-semantic-html">
-  <h6>On this page</h6>
-  <ul>
-    <li><a href="">What is Semantic HTML?</a></li>
-    <li><a href="">Common Semantic Tags</a></li>
-    <li><a href="">ARIA & Accessibility</a></li>
-    <li><a href="">Benefits of Semantic HTML</a></li>
-    <li><a href="">SEO Advantages</a></li>
-  </ul>
-</div>
-
-<!---Best practices0-->
-<div class="right-sidebar" id="right-best-practices">
-  <h6>On this page</h6>
-  <ul>
-    <li><a href="">Clean HTML Structure</a></li>
-    <li><a href="">Consistent Naming Conventions</a></li>
-    <li><a href="">Responsive Design Basics</a></li>
-    <li><a href="">Accessibility Tips</a></li>
-    <li><a href="">Avoid Inline Styles</a></li>
-  </ul>
-</div>
-
-<!--Projects-->
-<div class="right-sidebar" id="right-projects">
-  <h6>On this page</h6>
-  <ul>
-    <li><a href="">Resume with HTML</a></li>
-    <li><a href="">Contact Form</a></li>
-    <li><a href="">Portfolio Page</a></li>
-    <li><a href="">Interactive Web App</a></li>
-    <li><a href="">Other Example Projects</a></li>
-  </ul>
-</div> 
-</body>
+                   &lt;input type="checkbox" name="subscribe"&gt; Subscribe to newsletter
+                 </code></pre>
+            </div>
+            <div id="date-file-range">
+               <h3>Date, File, Range</h3>
+               <p>Specialized inputs:</p>
+               <pre><code>
+                  &lt;input type="date" name="dob"&gt;
+                  &lt;input type="file" name="upload"&gt;
+                  &lt;input type="range" name="volume" min="0" max="100"&gt;
+    </code></pre>
+            </div>
+            <div id="disabled-readonly">
+               <h3>Disabled & Readonly</h3>
+               <p>Control input usability:</p>
+               <ul>
+                  <li><code>disabled</code>: input is unusable and excluded from form submission</li>
+                  <li><code>readonly</code>: input is view-only but included in submission</li>
+               </ul>
+               <pre><code>
+                   &lt;input type="text" disabled&gt;
+                  &lt;input type="text" readonly value="Cannot edit"&gt;
+    </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="forms-validation">
+            <h2>Forms: Validation</h2>
+            <div id="required-pattern">
+               <h3>Required & Pattern Attributes</h3>
+               <p><code>required</code> forces users to fill an input before submitting.</p>
+               <p><code>pattern</code> uses regex to validate input format.</p>
+               <pre><code>
+                   &lt;input type="text" required&gt;
+                   &lt;input type="text" pattern="[A-Za-z]{3,}" title="At least 3 letters"&gt;
+               </code></pre>
+            </div>
+            <div id="min-max">
+               <h3>Min & Max Values</h3>
+               <p>Set minimum and maximum limits for numeric or date inputs.</p>
+               <pre><code>
+                   &lt;input type="number" min="1" max="10"&gt;
+                   &lt;input type="date" min="2023-01-01" max="2025-12-31"&gt;
+              </code></pre>
+            </div>
+            <div id="custom-js-validation">
+               <h3>Custom JavaScript Validation</h3>
+               <p>Use JS to add custom checks beyond HTML validation.</p>
+               <pre><code>
+                  const form = document.querySelector('form');
+                  form.addEventListener('submit', e =&gt; {
+                  const input = form.elements['username'];
+                  if(input.value.length &lt; 3) {
+                  e.preventDefault();
+                  alert('Username must be at least 3 characters');
+                    }
+                 });
+               </code></pre>
+            </div>
+            <div id="validation-examples">
+               <h3>Validation Examples</h3>
+               <p>Combining HTML and JS validation for better UX:</p>
+               <pre><code>
+                    &lt;input type="email" required pattern=".+@.+\.com"&gt;
+                    &lt;script&gt;
+                    // Additional JS checks here
+                   &lt;/script&gt;
+                 </code></pre>
+            </div>
+         </div>
+         <div class="Container" id="semantic-html">
+            <h2>Semantic HTML</h2>
+            <div id="what-is-semantic-html">
+               <h3>What is Semantic HTML?</h3>
+               <p>HTML that uses meaningful tags to describe content clearly.</p>
+            </div>
+            <div id="common-semantic-tags">
+               <h3>Common Semantic Tags</h3>
+               <p>Examples include:</p>
+               <ul>
+                  <li><code>&lt;header&gt;</code></li>
+                  <li><code>&lt;nav&gt;</code></li>
+                  <li><code>&lt;article&gt;</code></li>
+                  <li><code>&lt;section&gt;</code></li>
+                  <li><code>&lt;footer&gt;</code></li>
+               </ul>
+            </div>
+            <div id="aria-accessibility">
+               <h3>ARIA & Accessibility</h3>
+               <p>ARIA roles enhance semantic meaning for assistive tech.</p>
+               <pre><code>
+                  &lt;nav role="navigation"&gt; ... &lt;/nav&gt;
+                  &lt;main role="main"&gt; ... &lt;/main&gt;
+                </code></pre>
+            </div>
+            <div id="benefits-semantic-html">
+               <h3>Benefits of Semantic HTML</h3>
+               <ul>
+                  <li>Improves accessibility</li>
+                  <li>Easier maintenance</li>
+                  <li>Better SEO</li>
+               </ul>
+            </div>
+            <div id="seo-advantages">
+               <h3>SEO Advantages</h3>
+               <p>Search engines understand page structure better with semantic tags.</p>
+            </div>
+         </div>
+         <div class="Container" id="best-practices">
+            <h2>Best Practices</h2>
+            <div id="clean-html">
+               <h3>Clean HTML Structure</h3>
+               <p>Write well-organized, properly nested code for readability and performance.</p>
+            </div>
+            <div id="naming-conventions">
+               <h3>Consistent Naming Conventions</h3>
+               <p>Use clear, consistent class and ID names to simplify development and maintenance.</p>
+            </div>
+            <div id="responsive-design">
+               <h3>Responsive Design Basics</h3>
+               <p>Design layouts that adapt to different screen sizes using CSS media queries.</p>
+            </div>
+            <div id="accessibility-tips">
+               <h3>Accessibility Tips</h3>
+               <ul>
+                  <li>Use semantic HTML</li>
+                  <li>Provide alt text for images</li>
+                  <li>Use ARIA roles where necessary</li>
+               </ul>
+            </div>
+            <div id="avoid-inline-styles">
+               <h3>Avoid Inline Styles</h3>
+               <p>Use external CSS instead of inline styles to keep code clean and maintainable.</p>
+            </div>
+         </div>
+         <div class="Container" id="projects">
+            <h2>Projects</h2>
+            <div id="resume-html">
+               <h3>Resume with HTML</h3>
+               <p>Create a professional resume using semantic HTML and CSS styling.</p>
+            </div>
+            <div id="contact-form">
+               <h3>Contact Form</h3>
+               <p>Build a simple form to collect user information with validation.</p>
+            </div>
+            <div id="portfolio-page">
+               <h3>Portfolio Page</h3>
+               <p>Showcase your work with a clean, responsive portfolio site.</p>
+            </div>
+            <div id="interactive-web-app">
+               <h3>Interactive Web App</h3>
+               <p>Develop a web app using HTML, CSS, and JavaScript with dynamic user interaction.</p>
+            </div>
+            <div id="other-projects">
+               <h3>Other Example Projects</h3>
+               <p>Explore additional projects to improve your skills and portfolio.</p>
+            </div>
+         </div>
+      </main>
+      <!--Ky eshte the right sidebar -->
+      <!-- "What is Html?" -->
+      <div class="right-sidebar" id="html-basics-what-is-html">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#definition">Definition of HTML</a></li>
+            <li><a href="#history">History of HTML</a></li>
+            <li><a href="#usage">Where is HTML used?</a></li>
+            <li><a href="#role">Role of HTML in Web Development</a></li>
+         </ul>
+      </div>
+      <!-- "Syntax & Structure" -->
+      <div class="right-sidebar" id="html-basics-syntax-structure">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#tags">Tags and Elements</a></li>
+            <li><a href="#attributes">Attributes</a></li>
+            <li><a href="#nesting">Nesting Rules</a></li>
+            <li><a href="#case-sensitivity">Case Sensitivity</a></li>
+         </ul>
+      </div>
+      <!-- "Elements & tags" -->
+      <div class="right-sidebar" id="elements-tags" >
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#block-inline">Block vs Inline Elements</a></li>
+            <li><a href="#common-elements">Common Elements</a></li>
+            <li><a href="#self-closing">Self-closing Tags</a></li>
+            <li><a href="#semantic-elements">Semantic Elements</a></li>
+         </ul>
+      </div>
+      <!-- "Headings & Paragraphs" -->
+      <!-- Text & Formatting > Headings & Paragraphs -->
+      <div class="right-sidebar" id="headings-paragraphs" >
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#headings">Headings (h1-h6)</a></li>
+            <li><a href="#paragraphs">Paragraphs</a></li>
+            <li><a href="#text-structure">Text Structure & Semantics</a></li>
+            <li><a href="#accessibility">Accessibility tips</a></li>
+         </ul>
+      </div>
+      <!-- Text & Formatting > Formatting Tags -->
+      <div class="right-sidebar" id="text-formatting-formatting-tags">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#bold-italic">Bold, Italic, Underline (b, i, u)</a></li>
+            <li><a href="#em-strong">Emphasis Tags (em, strong)</a></li>
+            <li><a href="#small-mark">Small, Mark, Del, Ins</a></li>
+            <li><a href="#special-characters">Special characters & Entities</a></li>
+         </ul>
+      </div>
+      <!-- Links & Navigation > Anchor & Tags -->
+      <div class="right-sidebar" id="links-navigation-anchor-tags" >
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#anchor-tag">The &lt;a&gt; Tag</a></li>
+            <li><a href="#href-attributes">Href Attribute</a></li>
+            <li><a href="#link-target">Target Attribute</a></li>
+            <li><a href="#link-rel">Rel Attribute</a></li>
+         </ul>
+      </div>
+      <!-- Links & Navigation > Navigation Menus -->
+      <div class="right-sidebar" id="links-navigation-nav-menus" >
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#menu-structure">Menu Structure</a></li>
+            <li><a href="#dropdown-menus">Dropdown Menus</a></li>
+            <li><a href="#responsive-nav">Responsive Navigation</a></li>
+            <li><a href="#aria-nav">ARIA Roles for Nav</a></li>
+         </ul>
+      </div>
+      <!-- Forms > Form Basics -->
+      <div class="right-sidebar" id="forms-form-basics">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#form-tag">The &lt;form&gt; Tag</a></li>
+            <li><a href="#form-methods">Method Attribute (GET, POST)</a></li>
+            <li><a href="#form-action">Action Attribute</a></li>
+            <li><a href="#form-structure">Basic Form Structure</a></li>
+         </ul>
+      </div>
+      <!-- Forms > Input Types -->
+      <div class="right-sidebar" id="forms-input-types" >
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#text-email-password">Text, Email, Password</a></li>
+            <li><a href="#radio-checkbox">Radio & Checkbox</a></li>
+            <li><a href="#date-file-range">Date, File, Range</a></li>
+            <li><a href="#disabled-readonly">Disabled & Readonly</a></li>
+         </ul>
+      </div>
+      <!-- Forms > Validation -->
+      <div class="right-sidebar" id="forms-validation">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="#required-pattern">Required, Pattern</a></li>
+            <li><a href="#min-max">Min/Max Values</a></li>
+            <li><a href="#custom-js-validation">Custom JS Validation</a></li>
+            <li><a href="#validation-examples">Validation Examples</a></li>
+         </ul>
+      </div>
+      <!--Semantic Html-->
+      <div class="right-sidebar" id="right-semantic-html">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="">What is Semantic HTML?</a></li>
+            <li><a href="">Common Semantic Tags</a></li>
+            <li><a href="">ARIA & Accessibility</a></li>
+            <li><a href="">Benefits of Semantic HTML</a></li>
+            <li><a href="">SEO Advantages</a></li>
+         </ul>
+      </div>
+      <!---Best practices0-->
+      <div class="right-sidebar" id="right-best-practices">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="">Clean HTML Structure</a></li>
+            <li><a href="">Consistent Naming Conventions</a></li>
+            <li><a href="">Responsive Design Basics</a></li>
+            <li><a href="">Accessibility Tips</a></li>
+            <li><a href="">Avoid Inline Styles</a></li>
+         </ul>
+      </div>
+      <!--Projects-->
+      <div class="right-sidebar" id="right-projects">
+         <h6>On this page</h6>
+         <ul>
+            <li><a href="">Resume with HTML</a></li>
+            <li><a href="">Contact Form</a></li>
+            <li><a href="">Portfolio Page</a></li>
+            <li><a href="">Interactive Web App</a></li>
+            <li><a href="">Other Example Projects</a></li>
+         </ul>
+      </div>
+   </body>
 </html>
