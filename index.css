@@ -206,7 +206,11 @@ main code{
 }
 .sidebar .dropdown-content {
     display: grid;
+<<<<<<< HEAD
     grid-template-rows : 0fr;
+=======
+    grid-template-rows: 0fr;
+>>>>>>> sidebar
     transition: 300ms ease-in-out;
     >div{
         overflow: hidden;
@@ -216,6 +220,7 @@ main code{
 .sidebar .dropdown-content.show{
     grid-template-columns: 1fr;
 
+<<<<<<< HEAD
 }
 
 #right{
@@ -256,4 +261,6 @@ main code{
 }
 #right ul li a:hover{
     color: var(--jeshileh);
+=======
+>>>>>>> sidebar
 }
