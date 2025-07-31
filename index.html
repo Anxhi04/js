@@ -35,24 +35,26 @@
          </ul>
       </nav>
       <!--Ky eshte sidebari -->
-      <aside class="sidebar">
+      <aside id="sidebar" class="sidebar">
          <h3>HTML Topics</h3>
          <ul>
             <li class="active">
-               <button class="dropdown-btn">
+               <button onclick="togglesubmenu(this) ;togglesidebar()" class="dropdown-btn" id="togglebutton">
                <span >Html Basics</span>
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""   >
                </button>
                <ul class="dropdown-content">
                   <div>
                   <li><a href="#html">What is Html?</a></li>
                   <li><a href="#syntax">Syntax & Structure</a></li>
                   <li><a href="#tags">Elements & tags</a></li>
-               </div>
+                  </div>
                </ul>
             </li>
             <li>
-               <button class="dropdown-btn">
+               <button onclick="togglesubmenu(this)" class="dropdown-btn">
                <span>Text & Formatting</span>
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -62,8 +64,9 @@
                </ul>
             </li>
             <li>
-               <button class="dropdown-btn">
+               <button onclick="togglesubmenu(this)" class="dropdown-btn">
                <span>Links & Navigation</span>
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -72,8 +75,9 @@
                </ul>
             </li>
             <li>
-               <button class="dropdown-btn">
+               <button onclick="togglesubmenu(this)" class="dropdown-btn">
                <span>Forms</span>
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -649,7 +653,7 @@
       <!-- "What is Html?" -->
        <div id="right">
 
-      <div class="section1" id="html">
+      <div class="section" id="html">
          <h6>On this page</h6>
          <ul>
             <li><a href="#definition">Definition of HTML</a></li>
@@ -659,7 +663,7 @@
          </ul>
       </div>
       <!-- "Syntax & Structure" -->
-      <div class="right-sidebar" id="html-basics-syntax-structure">
+      <div class="section1" id="html-basics-syntax-structure">
          <h6>On this page</h6>
          <ul>
             <li><a href="#tags">Tags and Elements</a></li>
@@ -783,6 +787,6 @@
          </ul>
       </div>
       </div>
-      <script src="index.js"></script>
+      <script src="index.js" type="text/JavaScript" defer></script>
    </body>
 </html>

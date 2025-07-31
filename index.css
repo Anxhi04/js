@@ -206,23 +206,23 @@ main code{
 }
 .sidebar .dropdown-content {
     display: grid;
-<<<<<<< HEAD
     grid-template-rows : 0fr;
-=======
-    grid-template-rows: 0fr;
->>>>>>> sidebar
     transition: 300ms ease-in-out;
-    >div{
-        overflow: hidden;
-    }
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
     
 }
 .sidebar .dropdown-content.show{
     grid-template-columns: 1fr;
 
-<<<<<<< HEAD
 }
-
+.sidebar ul > li > button > img{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
 #right{
     margin-top: 30%;
     margin-left: 20%;  
@@ -261,6 +261,35 @@ main code{
 }
 #right ul li a:hover{
     color: var(--jeshileh);
-=======
->>>>>>> sidebar
+}
+
+.dropdown-btn img{
+    transition: 200ms ease;
+
+}
+.rotate img{
+    transform: rotate(90deg);
+}
+
+.sidebar .dropdown-content{
+    padding-left: 2em;
+}
+
+.dropdown-btn{
+    cursor: pointer;
+    img{
+        transition: rotate 150ms ease;
+    }
+}
+.dropdown-btn.rotate img {
+    transform: rotate(90deg);
+}
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.dropdown-content.show {
+    max-height: 500px;
 }
