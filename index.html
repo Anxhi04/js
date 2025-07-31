@@ -38,14 +38,16 @@
       <aside class="sidebar">
          <h3>HTML Topics</h3>
          <ul>
-            <li>
+            <li class="active">
                <button class="dropdown-btn">
-               <span>Html Basics</span>
+               <span >Html Basics</span>
                </button>
                <ul class="dropdown-content">
+                  <div>
                   <li><a href="#html">What is Html?</a></li>
                   <li><a href="#syntax">Syntax & Structure</a></li>
                   <li><a href="#tags">Elements & tags</a></li>
+               </div>
                </ul>
             </li>
             <li>
@@ -53,8 +55,10 @@
                <span>Text & Formatting</span>
                </button>
                <ul class="dropdown-content">
+                  <div>
                   <li><a href="#headings-paragraphs">Headings & Paragraphs</a></li>
                   <li><a href="#formatting-tags">Formatting Tags</a></li>
+               </div>
                </ul>
             </li>
             <li>
@@ -62,8 +66,9 @@
                <span>Links & Navigation</span>
                </button>
                <ul class="dropdown-content">
+                  <div>
                   <li><a href="#anchor-tags">Anchor & Tags</a></li>
-                  <li><a href="#nav-menus">Navigation Menus</a></li>
+                  <li><a href="#nav-menus">Navigation Menus</a></li></div>
                </ul>
             </li>
             <li>
@@ -71,9 +76,11 @@
                <span>Forms</span>
                </button>
                <ul class="dropdown-content">
+                  <div>
                   <li><a href="#form-basic">Form Basics</a></li>
                   <li><a href="#input-types">Input Types</a></li>
                   <li><a href="#forms-validation">Validation</a></li>
+               </div>
                </ul>
             </li>
             <li><a href="#semantic-html">Semantic HTML</a></li>
@@ -641,7 +648,8 @@
       <!--Ky eshte the right sidebar -->
       <!-- "What is Html?" -->
        <div id="right">
-      <div class="right-sidebar" id="html">
+
+      <div class="section1" id="html">
          <h6>On this page</h6>
          <ul>
             <li><a href="#definition">Definition of HTML</a></li>
@@ -661,7 +669,7 @@
          </ul>
       </div>
       <!-- "Elements & tags" -->
-      <div class="right-sidebar" id="elements-tags" >
+      <div class="section2" id="elements-tags" >
          <h6>On this page</h6>
          <ul>
             <li><a href="#block-inline">Block vs Inline Elements</a></li>
@@ -672,7 +680,7 @@
       </div>
       <!-- "Headings & Paragraphs" -->
       <!-- Text & Formatting > Headings & Paragraphs -->
-      <div class="right-sidebar" id="headings-paragraphs" >
+      <div class="section3" id="headings-paragraphs" >
          <h6>On this page</h6>
          <ul>
             <li><a href="#headings">Headings (h1-h6)</a></li>
@@ -682,7 +690,7 @@
          </ul>
       </div>
       <!-- Text & Formatting > Formatting Tags -->
-      <div class="right-sidebar" id="formatting-tags">
+      <div class="section4" id="formatting-tags">
          <h6>On this page</h6>
          <ul>
             <li><a href="#bold-italic">Bold, Italic, Underline (b, i, u)</a></li>
@@ -692,7 +700,7 @@
          </ul>
       </div>
       <!-- Links & Navigation > Anchor & Tags -->
-      <div class="right-sidebar" id="anchor-tags" >
+      <div class="section5" id="anchor-tags" >
          <h6>On this page</h6>
          <ul>
             <li><a href="#anchor-tag">The &lt;a&gt; Tag</a></li>
@@ -702,7 +710,7 @@
          </ul>
       </div>
       <!-- Links & Navigation > Navigation Menus -->
-      <div class="right-sidebar" id="nav-menus" >
+      <div class="section6" id="nav-menus" >
          <h6>On this page</h6>
          <ul>
             <li><a href="#menu-structure">Menu Structure</a></li>
@@ -712,7 +720,7 @@
          </ul>
       </div>
       <!-- Forms > Form Basics -->
-      <div class="right-sidebar" id="form-basics">
+      <div class="section7" id="form-basics">
          <h6>On this page</h6>
          <ul>
             <li><a href="#form-tag">The &lt;form&gt; Tag</a></li>
@@ -722,7 +730,7 @@
          </ul>
       </div>
       <!-- Forms > Input Types -->
-      <div class="right-sidebar" id="input-types" >
+      <div class="section8" id="input-types" >
          <h6>On this page</h6>
          <ul>
             <li><a href="#text-email-password">Text, Email, Password</a></li>
@@ -732,7 +740,7 @@
          </ul>
       </div>
       <!-- Forms > Validation -->
-      <div class="right-sidebar" id="forms-validation">
+      <div class="section9" id="forms-validation">
          <h6>On this page</h6>
          <ul>
             <li><a href="#required-pattern">Required, Pattern</a></li>
@@ -742,7 +750,7 @@
          </ul>
       </div>
       <!--Semantic Html-->
-      <div class="right-sidebar" id="semantic-html">
+      <div class="section10" id="semantic-html">
          <h6>On this page</h6>
          <ul>
             <li><a href="#what-is-semantic-html">What is Semantic HTML?</a></li>
@@ -753,7 +761,7 @@
          </ul>
       </div>
       <!---Best practices0-->
-      <div class="right-sidebar" id="right-best-practices">
+      <div class="section11" id="right-best-practices">
          <h6>On this page</h6>
          <ul>
             <li><a href="#clean-html">Clean HTML Structure</a></li>
@@ -764,7 +772,7 @@
          </ul>
       </div>
       <!--Projects-->
-      <div class="right-sidebar" id="projects">
+      <div class="section12" id="projects">
          <h6>On this page</h6>
          <ul>
             <li><a href="#resume-html">Resume with HTML</a></li>
@@ -775,5 +783,6 @@
          </ul>
       </div>
       </div>
+      <script src="index.js"></script>
    </body>
 </html>
