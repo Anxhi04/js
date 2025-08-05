@@ -310,3 +310,51 @@ main code{
 .dropdown-content.show {
     max-height: 500px;
 }
+#light-dark{
+    cursor: pointer;
+}
+body.dark-mode {
+  
+    background-color: #302d2d;
+    color: hsl(0, 24%, 96%);
+    h1, h2, h3, h4, h5, h6, p {
+        color: hsl(0, 24%, 96%);
+    }
+    main code {
+        background-color: #444;
+        color: hsl(0, 24%, 96%);
+    }
+    .sidebar> ul >li> a {
+        color: hsl(0, 24%, 96%);
+    }
+    #sidebar ul li button span {
+        color: hsl(0, 24%, 96%);
+    }
+      #sidebar ul li .dropdown-content a {
+        color: hsl(0, 24%, 96%);
+    }
+    .sidebar ul li.active span {
+        background-color: #444;
+        color: #27ae60;
+    }
+    .sidebar ul li a:hover, .sidebar .dropdown-btn:hover {
+        background-color: #444;
+        color:#27ae60;
+    }
+     #sidebar ul li button span:hover {
+       color:#27ae60;
+    }
+    #right ul li a{
+        color: hsl(0, 24%, 96%);
+    }
+    #right ul li a:hover{
+        color: #27ae60;
+    }
+    #right h6 {
+        color: hsl(0, 24%, 96%);
+    }
+    header {
+        background-color: #444;
+        color: hsl(0, 24%, 96%);
+    } 
+}
