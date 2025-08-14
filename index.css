@@ -86,7 +86,7 @@ aside{
 main{
      grid-area: main;
      top: 125px; 
-      position: relative;/* për të mundësuar top nëse përdoret */
+     position: relative;/* për të mundësuar top nëse përdoret */
    
 }
 #right{
@@ -358,3 +358,30 @@ body.dark-mode {
         color: hsl(0, 24%, 96%);
     } 
 }
+/* djathtas i ngjitur (sticky) */
+#right {
+  position: sticky;
+  top: calc(var(--headerH, 80px) + 16px);
+  align-self: flex-start; /* nëse layout-i është me flex/grid */
+  height: fit-content;
+}
+
+/* shfaq vetëm box-in aktiv */
+#right > div { display: none; }
+#right > div.active { display: block; }
+
+/* që anchor-ët të mos fshihen pas header-it fixed */
+main .Container,
+main .Container > div[id] {
+  scroll-margin-top: calc(var(--headerH, 80px) + 16px);
+}
+
+#main-content section {
+  display: none;
+}
+
+#main-content section.active {
+  display: block;
+}
+
+
