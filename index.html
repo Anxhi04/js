@@ -15,7 +15,9 @@
       <nav >
          <ul class="nav-links">
             <li>
-               <img src="html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" >
+               <a href="index.html">
+               <img src="html_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" class="logo-light">
+               <img src="html-white.svg"  class="logo-dark"></a>
             </li>
             <li>
                <form action="/search" method="GET">
@@ -28,11 +30,13 @@
             <li><a href="">Community</a></li>
             <li><a href="">Blog</a></li>
             <li>
-               
                <img id="light-dark" onclick="toggleDarkMode()" src="nightlight_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" class="imazh" >
+               <img src="nightlight_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="imazh" id="dark-imazh" onclick="toggleDarkMode()">
             </li>
             <li>
-               <img src="g_translate_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" class="imazh" >
+               <img src="g_translate_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" class="imazh" id="translate-light" >
+               <img src="g_translate_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" class="imazh" id="translate-dark">
+
             </li>
          </ul>
       </nav>
@@ -44,8 +48,9 @@
          <ul>
             <li class="active">
                <button onclick="togglesubmenu(this) ;togglesidebar()" class="dropdown-btn" id="togglebutton">
-               <span >Html Basics</span>
-               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""   >
+               Html Basics
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="light-chevron"  >
+               <img src="chevron_right_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt=""class="dark-chevron" >
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -57,8 +62,9 @@
             </li>
             <li>
                <button onclick="togglesubmenu(this)" class="dropdown-btn">
-               <span>Text & Formatting</span>
-               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                Text & Formatting
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="light-chevron">
+               <img src="chevron_right_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="dark-chevron">
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -69,8 +75,9 @@
             </li>
             <li>
                <button onclick="togglesubmenu(this)" class="dropdown-btn">
-               <span>Links & Navigation</span>
-               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+               Links & Navigation
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="light-chevron">
+               <img src="chevron_right_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="dark-chevron">
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -80,8 +87,9 @@
             </li>
             <li>
                <button onclick="togglesubmenu(this)" class="dropdown-btn">
-               <span>Forms</span>
-               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+               Forms
+               <img src="chevron_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="light-chevron">
+               <img src="chevron_right_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="dark-chevron">
                </button>
                <ul class="dropdown-content">
                   <div>
@@ -91,15 +99,19 @@
                </div>
                </ul>
             </li>
-            <li><a href="#semantic-html">Semantic HTML</a></li>
-            <li><a href="#best-practices">Best Practices</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#semantic-html" class="not-dropdown">Semantic HTML</a></li>
+            <li><a href="#best-practices" class="not-dropdown">Best Practices</a></li>
+            <li><a href="#projects" class="not-dropdown">Projects</a></li>
          </ul>
       </aside>
       <!-- the main content area -->
       <main>
+         <div>
+         <a href="index.html" id="fillim">LEARN HTML > </a>
+         </div>
          <div class="Container" id="html">
             <div id="definition">
+
                <h2>Definition of Html</h2>
                <p>
                   HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It tells the browser how to display text, images, links, and other elements.
