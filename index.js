@@ -1,7 +1,7 @@
 const togglebutton =document.getElementById('tooglebutton');
 const sidebar = document.getElementById('sidebar');
 const lightDarkButton = document.getElementById('light-dark'); 
-
+const allSidebarItems = document.querySelectorAll('.sidebar .dropdown-btn, .sidebar .not-dropdown');
 
 function togglesidebar() {
     sidebar.classList.toggle('close');
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const mainSections = document.querySelectorAll("main .Container");
     const rightSections = document.querySelectorAll("#right > div");
 
-    // Funksion që gjen seksionin aktual
+    // Funksioni që gjen seksionin aktual
     function updateRightSidebar() {
         let currentId = mainSections[0].id;
 
@@ -37,20 +37,24 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-        // Fshihe të gjitha
         rightSections.forEach(r => r.style.display = "none");
 
-        // Shfaq atë që përputhet me currentId
         const match = document.querySelector(`#right > div#${currentId}`);
         if (match) {
             match.style.display = "block";
         }
     }
 
-    // Run në fillim dhe sa herë që bëhet scroll
     updateRightSidebar();
     window.addEventListener("scroll", updateRightSidebar);
 });
 
 
+
+allSidebarItems.forEach(item => {
+    item.addEventListener('click', () => {
+        allSidebarItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+    });
+});
 
